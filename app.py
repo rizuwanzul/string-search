@@ -117,6 +117,11 @@ def main():
                     other_group_df = get_others(dfn, group_df[dfn.columns])
                     st.write(other_group_df)
                     write_footer(other_group_df)
+    
+    st.sidebar.write("---")
+    st.sidebar.info(""" 
+    by: [Rizuwan Zulkifli](https://www.linkedin.com/in/rizuwanzul/) | source: [GitHub](https://github.com/rizuwanzul/string-search)
+    """)
 
 
 @st.cache
